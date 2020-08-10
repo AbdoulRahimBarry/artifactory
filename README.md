@@ -10,17 +10,25 @@
 * Install docker
 
 `curl -fsSL https://get.docker.com -o get-docker.sh`
+
 `sh get-docker.sh`
+
 `sudo usermod -aG docker centos`
+
 `sudo systemctl enable docker`
+
 `sudo systemctl start docker`
   
   ### Install artifactory-pro version
   
    `mkdir -p $JFROG_HOME/artifactory/var/etc/`
+
    `cd $JFROG_HOME/artifactory/var/etc/`
+
    `touch ./system.yaml`
+
    `chown -R 1030:1030 $JFROG_HOME/artifactory/var`
+
    `docker run --name artifactory -v $JFROG_HOME/artifactory/var/:/var/opt/jfrog/artifactory -d -p 8081:8081 -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest`
   
   ### To connect: `@IP Jfrog server: 8082`
@@ -42,6 +50,7 @@
 * #### the image tags:
   
    `name: "ip_resistry:port_resistry/repository_key/name_image"`
+
    `tags: "tags_image"`
   
   ### the push/pull image in jfrog artifactory
