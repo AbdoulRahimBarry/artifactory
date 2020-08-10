@@ -1,7 +1,6 @@
 ## Implementation of a private registry: Jfrog artifactory
 
 ![Jfrog artifactory](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
-
   ### Create a server on AWS **t2.xlarge** and load the stack [lien](https://github.com/AbdoulRahimBarry/artifactory)
 
 * Or installed from command line
@@ -9,11 +8,13 @@
   ### prerequisites
 
 * Install docker
-  `curl -fsSL https://get.docker.com -o get-docker.sh
+`
+  curl -fsSL https://get.docker.com -o get-docker.sh
   sh get-docker.sh
   sudo usermod -aG docker centos
   sudo systemctl enable docker
-  sudo systemctl start docker`
+  sudo systemctl start docker
+`
   
   ### Install artifactory-pro version
   
