@@ -10,13 +10,9 @@
 * Install docker
 
 `curl -fsSL https://get.docker.com -o get-docker.sh`
-
 `sh get-docker.sh`
-
 `sudo usermod -aG docker centos`
-
 `sudo systemctl enable docker`
-
 `sudo systemctl start docker`
   
   ### Install artifactory-pro version
