@@ -2,7 +2,7 @@
 
 ![Jfrog artifactory](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
 
-### Create a server on AWS **t2.xlarge** and load the stack [lien](https://github.com/AbdoulRahimBarry/artifactory)
+  ### Create a server on AWS **t2.xlarge** and load the stack [lien](https://github.com/AbdoulRahimBarry/artifactory)
 
 * Or installed from command line
   
