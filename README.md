@@ -1,6 +1,6 @@
 ## Implementation of a private registry: Jfrog artifactory
 
-![Jfrog artifactory](https://cdn.opsmatters.com/sites/default/files/logos/jfrog-logo.png)
+![arti](https://user-images.githubusercontent.com/50138085/90343221-a758cc80-e00e-11ea-93b7-64086b5e037f.PNG)
   ### Create a server on AWS **t2.xlarge** and load the stack [lien](https://github.com/AbdoulRahimBarry/artifactory)
 
 * Or installed from command line
